@@ -19,12 +19,10 @@ library("reshape2")
 
 #load both data set
 #test set
-test<-read.table("UCI HAR Dataset/test/X_test.txt",sep = "", colClasses = "numeric",
-                 col.names = colnames)
+test<-read.table("UCI HAR Dataset/test/X_test.txt",sep = "", colClasses = "numeric")
 
 #train set
-train<-read.table("UCI HAR Dataset/train/X_train.txt",sep = "",colClasses = "numeric",
-                  col.names = colnames)
+train<-read.table("UCI HAR Dataset/train/X_train.txt",sep = "",colClasses = "numeric")
 
 
 #column names are the same for both dataset
